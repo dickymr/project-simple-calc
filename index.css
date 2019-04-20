@@ -1,0 +1,43 @@
+
+body {
+  background-color: #dedede
+}
+
+.container {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calc {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header-calc {
+  margin-bottom: 20px;
+}
+
+
+p {
+  font-family: 'Merienda';
+  font-weight: bold;
+  
+}
+
+#input-display {
+  width: 330px;
+  height: 40px;
+  font-family: 'PIXymbolsDigitClocksW90-CkRg';
+  font-size: 28px;
+  text-align: right;
+}
+
+.btn {
+  width: 75px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
